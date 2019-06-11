@@ -1,0 +1,72 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+}
+.main{
+	position: relative;
+	margin: auto;
+	width:1024px;
+	height: 100%;
+	border-left: solid black 1px;
+	border-right: solid black 1px;
+}
+.center{
+	position: absolute;
+	top:0;
+	left:0;
+	bottom: 50px;
+	width:100%;
+}
+.problem{
+	position: absolute;
+	top:0;
+	left:0;
+	width:874px;
+	height: 100%;
+	border-right: solid black 1px;
+	overflow-y: auto;
+}
+.problem_sub{
+	padding: 10px 5px;
+}
+.problem_choices{
+	text-align: right;
+	padding-right: 10px;
+}
+.radio_text{
+	padding: 5px 10px;
+}
+.re{
+	display: none;
+}
+.re_text{
+	display: none;
+}
+.result{
+	position: absolute;
+	top:0;
+	right: 0;
+	width:150px;
+	height: 100%;
+	overflow-y: auto;
+}
+.re_list{
+	padding-left: 10px;
+}
+.footer{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 50px;
+	border-top: solid black 1px;
+	text-align: right;
+	
+}
+#submit{
+	width: 135px;
+	height: 40px;
+	margin: 5px 5px 5px 0px;
+}
